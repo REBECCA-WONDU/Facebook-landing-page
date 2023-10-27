@@ -1,0 +1,488 @@
+.middle-page {
+    background-color: lightgray;
+    width:750px;
+    display: inline-block;
+    margin-right: 40px;
+  }
+  .middleUpper-part-container{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: lightgray;
+    padding-bottom: 15px;
+    margin-left: -30px;
+  }
+  .middleUpper-part{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    padding-top: 20px;
+   
+    
+      
+  }
+  .create-story{
+      position: relative;
+      display: flex;
+      display: inline-block;
+      margin-left: 10px;
+      object-fit: contain;
+     
+  }
+  .CreateStory-pic{
+      width: 120px;
+      height: 180px;
+      border-radius: 12px;
+    
+  }
+  .plus-container{
+      position: absolute;
+      bottom:50px;
+      right:50px;
+      left:50px;
+  
+  }
+  .CreateStory-txt-container{
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.897);
+    bottom: 0px;
+    margin-top: -30px;
+    align-items: center; 
+    justify-content: center;
+  }
+  .CreateStory-txt{
+      position: absolute;
+      font-size: 16px;
+      font-family: Roboto, Arial;
+      display: flex;
+   
+  }
+  .blue-plus{
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+  }
+  .Tom-Russo{
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    object-fit: contain;
+  }
+  .tomRusso-pic{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 180px;
+    border-radius: 12px;
+  }
+  .tomRusso-profile-container{
+    display: flex;
+    position: absolute;
+    top: 40px;
+  
+  
+  }
+  .tomRusso-profile{
+    width: 30px;
+    height: 30px;
+    border-color: rgba(0, 0, 255, 0.384);
+    border-style: solid;
+    border-radius: 15px;
+  
+  }
+  .username-tom-container{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  
+  }
+  .username-tom{
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+  }
+  .Betty-Chen{
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+    object-fit: contain;
+  }
+  .bettyChen-pic{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 180px;
+    border-radius: 12px;
+  }
+  .bettyChen-profile-container{
+    display: flex;
+    position: absolute;
+    top:40px
+  }
+  .bettyChen-profile{
+    width: 30px;
+    height: 30px;
+    border-color: rgba(0, 0, 255, 0.384);
+    border-style: solid;
+    border-radius: 15px;
+  }
+  .username-betty-container{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .username-Betty{
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+  }
+  .Denis-Han{
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+    object-fit: contain;
+  }
+  .denisHan-pic{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 180px;
+    border-radius: 12px;
+  }
+  .denisHan-profile-container{
+    display: flex;
+    position: absolute;
+    top:40px;
+    
+  }
+  .denisHan-profile{
+    width: 30px;
+    height: 30px;
+    border-color: rgba(0, 0, 255, 0.384);
+    border-style: solid;
+    border-radius: 15px;
+  }
+  .username-denis-container{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .username-denis{
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+  }
+  .Cynthia-Lopez{
+    display: flex;
+    position: relative;
+    margin-left: 10px; 
+    object-fit: contain;
+  }
+  .cynthia-pic{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 180px;
+    border-radius: 12px;
+   
+  }
+  .cynthia-profile-container{
+    display: flex;
+    position: absolute;
+    top:40px
+  }
+  .cynthia-profile{
+    width: 30px;
+    height: 30px;
+    border-color: rgba(0, 0, 255, 0.384);
+    border-style: solid;
+    border-radius: 15px;
+  }
+  .username-cynthia-container{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .username-cynthia{
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+  }
+  .Afonsia-Ponita{
+    display: flex;
+    position: relative;
+    margin-left: 10px;  
+    margin-right: 10px;
+  }
+  .Afonsia-pic{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 180px;
+    border-radius: 12px;
+  }
+  .Afonsia-profile-container{
+    display: flex;
+    position: absolute;
+    top:40px
+  }
+  .Afonsia-profile{
+    width: 30px;
+    height: 30px;
+    border-color: rgba(0, 0, 255, 0.384);
+    border-style: solid;
+    border-radius: 15px;
+  }
+  .username-afonsia-container{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .username-afonsia{
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+  }
+  .viewMore-container{
+    display: flex;
+    position: absolute;
+    right: -7px;
+    top: 70px;
+  }
+  .viewMore-icon{
+   width: 40px;
+   height: 40px;
+   border-radius: 20px;
+  }
+  .middlepage-middlePart-container{
+    display: flex;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 3px 5px rgba(255, 255, 255, 0.597);
+    margin-bottom: 20px;
+    margin-right: -2px;
+    margin-left: -20px;
+  }
+  
+  .middlepage-profile{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+  justify-content: center;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  .user-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    
+  }
+  .middelSearch-bar{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border: none;
+    margin-left: 10px;
+    background-color: rgba(211, 211, 211, 0.623);
+    margin-right: 10px;
+    font-family: Roboto, Arial;
+    font-size: 15px;
+  }
+  .middelSearch-bar::placeholder{
+    font-size: 14px;
+    font-family: Roboto, Arial;
+  
+  }
+  .middlepage-middle-icon{
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      top: 50px;
+      align-items: center;
+      justify-content: space-between;  
+  }
+  
+  .live-icon-container{
+      display: flex;
+      flex-direction: row;
+     
+      
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+  }
+  
+  .live-icon{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    align-items: center;
+    margin-left: 45px;
+   
+  }
+  .live-icon-txt{
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .photo-middle-icon-container{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+  }
+  .photoVideo-icon{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+  }
+  .photoVideo-icon-txt{
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .feeling-middle-icon-container{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    justify-content: center;
+    margin-right: 45px;
+   
+  }
+  .feeling-icon{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    align-items: center;
+    margin-right: 10px;
+  
+  }
+  .feeling-icon.txt{
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    display: inline-block;
+    align-items: center;
+    
+  }
+  
+  
+  
+  .middlePage-lastpart-container{
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    height: 70px;
+    background-color: white;
+   margin-left: -20px;
+   
+  
+  }
+  .middlePageLastpart-profile-container{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    margin-top: 5px;
+    
+  }
+  .middlePageLastpart-profilePic{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .middlePageLastpart-username-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: Roboto, Arial;
+  }
+  .postHr-postHrImg-container{
+    display: flex;
+    align-items: center;
+   margin-left: 49px;
+   margin-top: -10px;
+  }
+  .post-hour{
+    display:flex;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    flex-direction: column;
+    color: lightgray;
+  }
+  .post-hr-img{
+    width: 20px;
+    height:20px;
+    border-radius: 10px;
+  }
+  .middlePost-txt-container{
+    display:flex;
+    margin-top:7px;
+    padding-bottom:10px;
+    background-color:white;
+   
+  
+  }
+  .middlePost-txt{
+      font-size:14px;
+      font-family:Roboto, Arial;
+      margin-left:10px;
+      font-size: 15px;
+      font-family: Roboto, Arial;
+  }
+  .middle-postPic-container{
+    width: 100%;
+    height: 500px;
+   
+  
+  }
+  .middle-post-pic{
+    width: 100%;
+  }
+  .post-img{
+    width: 100%;
+    height: 500px;
+  }
+  
+  

@@ -1,0 +1,262 @@
+.leftside-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    display: inline-block;
+  }
+  .leftside-bar-upperPart {
+    height: 350px;
+  }
+  .leftBar-profileName-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .profile-pic {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: ce;
+  }
+  .mypic {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+
+  }
+  .fullname-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+
+  }
+  .full-name{
+    display: inline-block;
+    font-size: 15px;
+    font-family:  Roboto, Arial;
+    margin-top: -12px;
+  }
+  .watch {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .watch-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .watch-txt-container {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+  }
+  .watch-txt {
+    display: inline-block;
+    font-size: 15px;
+    font-family:  Roboto, Arial;
+  }
+  .events {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .events-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .event-txt-container {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+  }
+  .event-txt {
+    display: inline-block;
+    font-size: 15px;
+    font-family:  Roboto, Arial;
+  }
+  .friends {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .friends-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .friends-txt-container {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+  }
+  .friends-txt {
+    display: flex;
+    display: inline-block;
+    font-size: 15px;
+     font-family:  Roboto, Arial;
+  }
+  
+  .memory {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .memories-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .memories-txt-container {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+  }
+  .memories-txt {
+    font-size: 15px;
+    font-family:  Roboto, Arial;
+  }
+  .dropDownIcon-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .drop-down-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .see-more-container {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+  }
+  .see-more {
+    font-size: 15px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+  }
+  .leftside-bar-lowerPart {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+  }
+  .leftside-lower-header {
+    display: flex;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+ 
+  .shortcut {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    color: gray;
+    display: flex;
+  }
+  .save-the-poemery-theater {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  
+  }
+  .poemery-theater {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 10px;
+    
+  }
+  .poemer-txt {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+      margin-left: 10px;
+  }
+  .weekend-trips {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  .Trips {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .trips-txt {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+   
+  }
+  .jaspers-market {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  .jaspersmarket-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+  }
+  .jaspersmarket-txt {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .red-table-talk {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  .red-table-talk-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  .red-table-talk-txt {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  .best-hidden-hiking {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  .best-hidden-hiking-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  .best-hidden-hiking-txt {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    margin-left: 10px;
+  }

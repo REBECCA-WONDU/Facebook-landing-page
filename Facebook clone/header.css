@@ -1,0 +1,183 @@
+.header {
+    display: grid;
+    height: 55px;
+    grid-template-columns: 300px 1fr 340px;
+  }
+  .left-side {
+    display: flex;
+    flex-direction: row;
+  }
+  .facebook-icon {
+    display: flex;
+    display: inline-block;
+    width: 45px;
+    margin-left: 10px;
+    top: 2px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  .searchbar-container {
+    display: flex;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+  .searchbar-container:active {
+    background-color: white;
+  }
+  
+  .search-bar {
+    display: flex;
+    display: inline-block;
+    width: 100px;
+    font-size: 16px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: rgb(216, 215, 215);
+  }
+  .search-bar::placeholder {
+    color: #ffffff;
+    margin-right: -200px;
+    margin-left: -200px;
+  }
+  .search-icon {
+    width: 15px;
+    margin-left: 15px;
+  }
+  .middle-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .middle-icon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .home-icon {
+    width: 30px;
+    margin-left: 10px;
+  }
+  .video-icon {
+    width: 30px;
+  }
+  .marketplace-icon {
+    width: 30px;
+  }
+  
+  .people-icon {
+    width: 30px;
+  }
+  .flag-icon {
+    width: 50px;
+    margin-right: 10px;
+  }
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  
+  .right-icon {
+    display: flex;
+    position:relative;
+    align-items: center;
+    width: 100%;
+    justify-content:center;
+  }
+  .profile-pic{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+  }
+  .myphoto {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: -5px;
+  }
+  .name-container {
+    display:flex;
+    margin-right:10px;
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    margin-left:5px;
+    font-size: 15px;
+    font-family: Roboto, Arial;
+  }
+  .plus-sign{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right:10px;
+   position: relative;
+   align-items:center;
+   justify-content:center; 
+    
+  }
+  .plus-icon {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width:24px;
+    height: 24px;
+    border-radius: 12px;
+    align-items: center;
+    vertical-align: middle;
+   
+   
+   
+  }
+  .messanger-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+  .subscribe-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+  .drop-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    right:10px;
+    bottom:-5px;
+    margin-bottom: 20px;
+
+  }
+  .drop-down-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+   
+  }
